@@ -18,6 +18,11 @@ body {
 .navi{
     float: right;
 }
+ul > .nav-items {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 12px;
+}
 li{
     list-style-type: none;
     display: inline;
@@ -65,3 +70,34 @@ li{
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 20px;
 }
+#order-pizza {
+    color: #000;
+}
+input[type="email"] {
+    background-image: url(../Images/pizza.jpg);
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: .8em .7em;
+    border-radius: 20px;
+    outline: none !important;
+    font-size: 14px;
+}
+
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
