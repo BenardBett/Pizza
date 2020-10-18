@@ -49,3 +49,7 @@ li{
     height: inherit;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+#menu {
+    padding-top: 20px;
+}
