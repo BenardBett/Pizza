@@ -53,3 +53,15 @@ li{
 #menu {
     padding-top: 20px;
 }
+
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* 
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+} */
