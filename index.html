@@ -1,25 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
     <h1 id="pizza">THICK SLICE PIZZA</h1>
     <div class="navi">
-        <ul class="nav-items">
-          <li><a href="#home">Home</a></li>
-            <li><a href="#menus">Menu</a></li>
-            <li><a href="#order">Orders</a></li>
-            <li><a href="#contact">Contacts</a></li>
-        </ul>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menus">Menu</a></li>
+        <li><a href="#order">Orders</a></li>
+        <li><a href="#contact">Contacts</a></li>
+      </ul>
     </div>
-</nav>
+  </nav>
+  <br><br>
+  <div class="overlay">
+
+    <div class="landing-text"><br><br><br>
+      <h1 class="text-white text-center">Thick Slice Pizza</h1>
+      <h2 class="text-white text-center">Get your pizza instantly when you make an order.</h2>
+    </div>
+    <div class="h-buttons text-center">
+      <a href="#welcome">
+        <button class="btn bg-info floater  infinite delay-2s">Go</button>
+      </a><br><br><br>
+    </div>
+  </div>
+
+  <div id="menus"></div>
+  <br>
+  <div class="menu col-md-12">
+      <div class="menu-overlay">
+          <h1 class="text-center text-white" id="menu">Menu</h1>
+          <div class="pizza-menu row text-center">
+              <figure class="col-sm-4">
+                  <img src="images/2.png" alt="small-pizza" class="wiggle">
+                  <figcaption class="text-white">Regular<br>Ksh. 300</figcaption>
+              </figure>
+              <figure class="col-sm-4">
+                  <img src="images/1.png" alt="medium-pizza" class="wiggle">
+                  <figcaption class="text-white">Medium<br>Ksh. 600</figcaption>
+              </figure>
+              <figure class="col-sm-4">
+                  <img src="images/3.png" alt="large-pizza" class="wiggle">
+                  <figcaption class="text-white">Large<br>Ksh. 1200</figcaption>
+              </figure>
+          </div>
+      </div>
+  </div>
+
 </body>
+
 </html>
