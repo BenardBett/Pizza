@@ -40,3 +40,12 @@ li{
     padding-bottom: 20px;
     color: black;
 }
+.h-buttons {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.menu-overlay {
+    width: 100%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+}
