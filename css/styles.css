@@ -100,4 +100,16 @@ input[type="email"] {
     border-radius: 20px;
     margin-top: 20px;
 }
+.contact {
+    padding-top: 20px;
+}
+.contacts {
+    background-image: url("../Images/pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+figure img {
+    height: 260px;
+    width: 260px;
+}
 
