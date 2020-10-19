@@ -37,6 +37,7 @@ li{
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
+        font-size: large;
 }
 .landing-text{
     padding-left: 20px;
@@ -58,20 +59,11 @@ li{
 #menu {
     padding-top: 20px;
 }
-
-#order-pizza {
-    padding: 20px 50px 20px 50px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.order-overlay {
+#order{
     height: inherit;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 20px;
-}
-#order-pizza {
-    color: #000;
 }
 input[type="email"] {
     background-color: black;
@@ -83,38 +75,10 @@ input[type="email"] {
     font-size: 14px;
 }
 
-.click-me, button[type=submit], .deliver, .delivernot {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block;
-    letter-spacing: 2px;
-    background-color: #ffbf00;
-    outline: none;
-    padding: 12.5px 13px;
-    border: none;
-    border-radius: 33px;
-    font-size: 14px;
-}
-.checkout {
-    border-radius: 20px;
-    margin-top: 20px;
-}
-
-#sum-order{
-    background-color:lightslategray;
-}
-.contact {
-    padding-top: 20px;
-}
 .contacts {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3sqZxcZNUgwjUvOw4G_SU_qOMkcjubTcD5Q&usqp=CAU);
+    background-color: lightyellow;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-figure img {
-    height: 260px;
-    width: 260px;
+    color: black;
 }
 

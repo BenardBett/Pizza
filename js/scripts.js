@@ -30,9 +30,9 @@ function getAmount(flavour, size, crust, topping, number) {
       parseInt(topping.val())) *
     parseInt(number.val());
   alert(
-    "You've ordered " +
-      number.val() +
-      " " +
+    // "You've ordered " +
+    //   number.val() +
+    //   " " +
     "You've ordered " +
       number.val() +
       " "  +
@@ -49,8 +49,8 @@ function getAmount(flavour, size, crust, topping, number) {
       " "  +
       topping.html() +
       " pizza's," +
-      "which amounts to Ksh. " +
-      " "  +
+      // "which amounts to Ksh. " +
+      // " "  +
       " which amounts to Ksh. "  +
       results +
       " Thanks for your order,welcome again!"
@@ -58,7 +58,7 @@ function getAmount(flavour, size, crust, topping, number) {
   prompt("Enter your location");
   prompt("Enter your name");
   prompt("Enter your phone number");
-  alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
+  alert("Your order will be delivered shortly, delivery fee is  Ksh.200/=");
 };
 // function getPick() {
 function getPick(flavour, size, crust, topping, number) {
@@ -70,9 +70,10 @@ function getPick(flavour, size, crust, topping, number) {
   parseInt(topping.val())) *
   parseInt(number.val());
   alert(
-    "You've ordered  " +  getNumber("") + " pizza's,  " + "which amounts to ksh   " +   results +  "You've ordered "  + number.val() +
+    // "You've ordered  " +  getNumber("") + " pizza's,  " + "which amounts to ksh   " +   results +  
+    "You've ordered "  + number.val() +
     " "  + " pizza's, "  + flavour.html() + " "   + size.html() + " "  + crust.html() + "  "  + topping.html() +  "  "  
-    + " which amounts to Ksh. " +  results  + "  Thanks for shopping with us  "
+    + " which amounts to Ksh. " +  results  + "  Thanks for choosing our pizza company "
   );
 }
 $(document).ready(function() {
